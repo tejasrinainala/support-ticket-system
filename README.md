@@ -54,7 +54,7 @@ Accessing the Application
 Frontend: http://localhost:3000
 
 Backend API: http://localhost:8000/api/tickets/
-
+```
 ## Notes
 
 The entire application runs end-to-end with a single docker compose up --build command.
@@ -64,4 +64,4 @@ PostgreSQL, backend, and frontend services are all managed via Docker Compose.
 The OpenAI API key is provided via environment variables and is not hardcoded.
 
 The project includes the .git directory to allow review of incremental commit history.
-```
+
